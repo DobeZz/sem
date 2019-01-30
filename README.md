@@ -1,3 +1,4 @@
--Master Build Status - [![Build Status](https://travis-ci.org/DobeZz/sem.svg?branch=master)](https://travis-ci.org/DobeZz/sem)
--License Badge - [![LICENSE](https://img.shields.io/github/license/DobeZz/sem.svg?style=flat-square)](https://github.com/DobeZz/sem/seMethods/master/LICENSE)
--Release Badge - [![Releases](https://img.shields.io/github/release/DobeZz/sem/all.svg?style=flat-square)](https://github.com/DobeZz/sem/releases)
+- Master Build Status - [![Build Status](https://travis-ci.org/DobeZz/sem.svg?branch=master)](https://travis-ci.org/DobeZz/sem)
+- License - [![LICENSE](https://img.shields.io/github/license/DobeZz/sem.svg?style=flat-square)](https://github.com/DobeZz/sem/seMethods/master/LICENSE)
+- Release - [![Releases](https://img.shields.io/github/release/DobeZz/sem/all.svg?style=flat-square)](https://github.com/DobeZz/sem/releases)
+- Develop Build Status -[![Build Status](https://travis-ci.org/DobeZz/sem.svg?branch=master)](https://travis-ci.org/DobeZz/sem)
