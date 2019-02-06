@@ -18,7 +18,12 @@ public class App
         // Connect to database
         a.connect();
 
-        System.out.println("lol");
+        // Get Employee
+        Employee emp = a.getEmployee(255530);
+        // Display results
+        a.displayEmployee(emp);
+
+
 
         // Disconnect from database
         a.disconnect();
@@ -49,7 +54,7 @@ public class App
             try
             {
                 // Wait a bit for db to start
-                Thread.sleep(3000);
+                Thread.sleep(10000);
                 // Connect to database
                 con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?useSSL=false", "root", "example");
                 System.out.println("Successfully connected");
@@ -78,7 +83,6 @@ public class App
             {
                 // Close connection
                 con.close();
-                System.out.println("lol");
             }
             catch (Exception e)
             {
@@ -120,5 +124,22 @@ public class App
             return null;
         }
     }
+
+    public void displayEmployee(Employee emp)
+    {
+        if (emp != null)
+        {
+            System.out.println(
+                    emp.emp_no + " "
+                            + emp.first_name + " "
+                            + emp.last_name + "\n"
+                            + emp.title + "\n"
+                            + "Salary:" + emp.salary + "\n"
+                            + emp.dept_name + "\n"
+                            + "Manager: " + emp.manager + "\n");
+        }
+    }
+
+
 
 }
